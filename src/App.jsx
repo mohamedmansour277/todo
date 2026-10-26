@@ -51,9 +51,6 @@ export default function App() {
               </button>
             </li>
           ))}
-          {todos.length === 0 && (
-            <li className="empty-state">No tasks yet.</li>
-          )}
         </ul>
       </section>
     </main>

@@ -63,7 +63,6 @@ input {
 }
 
 .todo-input:focus {
-  outline: 2px solid #3b82f6;
   outline-offset: 1px;
 }
 
@@ -79,11 +78,7 @@ input {
 
 .add-button {
   padding: 0.5rem 1rem;
-  background-color: #2563eb;
-}
-
-.add-button:hover {
-  background-color: #1d4ed8;
+  background-color: #000000;
 }
 
 .todo-list {
@@ -113,13 +108,10 @@ input {
 .delete-button {
   flex-shrink: 0;
   padding: 0.25rem 0.75rem;
-  background-color: #dc2626;
+  background-color: #000000;
   font-size: 0.875rem;
 }
 
-.delete-button:hover {
-  background-color: #b91c1c;
-}
 
 .empty-state {
   padding: 1rem 0;
