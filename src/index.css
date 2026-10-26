@@ -43,8 +43,6 @@
   border-radius: 0.25rem;
 }
 
-
-
 .add-button {
   padding: 0.5rem 1rem;
   background-color: #000000;
@@ -69,16 +67,12 @@
   background-color: #f9fafb;
 }
 
-.todo-text {
-  overflow-wrap: anywhere;
-}
 
 .delete-button {
   flex-shrink: 0;
   padding: 0.25rem 0.75rem;
   color: #000000;
   border: 0;
-  background-color: none;
   font-size: 0.875rem;
 }
 
