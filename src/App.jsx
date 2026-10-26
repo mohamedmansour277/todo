@@ -25,14 +25,14 @@ export default function App() {
             type="text"
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            placeholder="Add a new task..."
+            placeholder="writee"
             className="todo-input"
           />
           <button
             type="submit"
             className="add-button"
           >
-            Add Task
+            add Task
           </button>
         </form>
 
@@ -47,7 +47,7 @@ export default function App() {
                 onClick={() => deleteTodo(todo.id)}
                 className="delete-button"
               >
-                Delete
+                delete
               </button>
             </li>
           ))}
