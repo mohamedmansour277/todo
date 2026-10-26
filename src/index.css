@@ -46,6 +46,7 @@
 .add-button {
   padding: 0.5rem 1rem;
   background-color: #000000;
+  color: white;
 }
 
 .todo-list {
@@ -72,6 +73,7 @@
   flex-shrink: 0;
   padding: 0.25rem 0.75rem;
   color: #000000;
+  background: none;
   border: 0;
   font-size: 0.875rem;
 }
